@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ClassSchedule</string>
+    <string name="mainNewTitle">Class Schedule</string>
+    <string name="mainbutton1">View Classes</string>
+    <string name="mainbutton2">Detailed Class Schedule</string>
+    <string name="mainbutton3">Create/Edit Classes</string>
+    <string name="mainbutton4">Export</string>
+    <string name="mainbutton5">Options</string>
+
+    <string name="classchangertitle">Your Classes</string>
+    <string name="classdets">Details</string>
+    <string name="editclassbutton">Edit Class</string>
+    <string name="classdetailsbutton">Class Details</string>
+    <string name="defaultclass">CLASS NAME HERE</string>
+    <string name="createclassbutton">Create Class</string>
+    <string name="deleteclassbutton">Delete Class</string>
+    <string name="back">Main</string>
+
+    <string name="defaultprofessor">Professor NAME_HERE</string>
+    <string name="classtitle1">Location</string>
+    <string name="classtitle2">Meeting Dates and Times</string>
+    <string name="classtitle3"></string>
+    <string name="defaultlocation">LOCATION_HERE</string>
+    <string name="defaultdateNtime">DATE_TIME_HERE</string>
+
+    <string name="DoTW">Days of the Week</string>
+
+    <string name="makeClassTitle">Create your Class</string>
+
+    <string-array name="mainButtons">
+        <item>View Classes</item>
+        <item>Detailed Schedule</item>
+        <item>Edit Classes</item>
+        <item>Options</item>
+    </string-array>
+</resources>

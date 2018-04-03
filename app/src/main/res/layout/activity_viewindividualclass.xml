@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewindividualclass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/individualtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/classchangertitle"
+            android:textSize="30sp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:id="@+id/individualprofessor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultprofessor"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/individualtitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/classtitle1"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/locationData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultlocation"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.5"
+            android:textAlignment="3" />
+
+        <TextView
+            android:id="@+id/individualtitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/classtitle2"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:id="@+id/dateNtimeData1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultdateNtime"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.5"
+            android:textAlignment="3" />
+
+        <TextView
+            android:id="@+id/dateNtimeData2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultdateNtime"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.5"
+            android:textAlignment="3" />
+
+        <Button
+            android:id="@+id/EditClassButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/editclassbutton"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/deleteClass"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/deleteclassbutton"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
